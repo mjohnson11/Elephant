@@ -171,7 +171,7 @@ def show_me_my_elephants(habitat_size, *args):
         var elephants = $elephants;
         var habitat_size = $habitat_size;
         var the_svg = d3.select('#the_svg')
-        the_svg.attr('width', habitat_size[0]).attr('height', habitat_size[1]).style('background-color', 'white');
+        the_svg.attr('width', habitat_size[0]).attr('height', habitat_size[1]);
         console.log(elephants);
 
         for (let elephant of elephants) {
